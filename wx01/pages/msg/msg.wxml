@@ -1,0 +1,22 @@
+<!--pages/msg/msg.wxml-->
+<view class='cell'>
+  <view class='cell-item'>
+    <view class='show-top'>
+      <view class='show-cover'><image src='' width="60rpx" mode='aspectFit'></image></view>
+      <view class='show-right'>
+        <view class='show-title'>13届动漫展</view>
+        <view>
+          <text class='pricep'>¥50</text>
+          <text class='pricen'>现场:</text>
+          <text class='pricen-a'>¥50</text>
+        </view>
+        <view class='show-ctime'>时间:2018年11月26日</view>
+        <view class='show-addr'>地点:湖南省长沙市红星国际会展中心</view>
+        <view class='view'></view>        
+      </view>
+    </view>
+    <view class='show-bottom'>
+    </view>
+  </view>
+</view>
+

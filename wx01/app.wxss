@@ -1,0 +1,31 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 功能二:通用分割块 */
+.divider{
+  width: 100%;
+  height: 20rpx;
+  background-color: #f1f1f1;
+}
+/* 功能三:通用项目条 */
+.cell{
+  background-color: #fff;
+  font-size: 16px;
+}
+.cell-item{
+  border-bottom: 1rpx solid #ddd;
+  padding: 20rpx 30rpx;
+}
+/* 功能四: 通用单行超出范围截取并添加省略号 */
+.ell{
+  overflow: hidden;
+  white-space: nowrap; /* 不允许换行 */
+  text-overflow: ellipsis;
+}

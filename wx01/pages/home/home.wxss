@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+/* 功能一:轮播图 */
+.slider, .slider swiper-item,.slider swiper-item image{
+  height: 300rpx;
+  width: 100%;
+}
+/* 功能二:新闻卡片 */
+.info{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20rpx;
+  width: 620rpx;
+  height: 300rpx;
+  padding: 30rpx;
+  margin: 30rpx 20rpx;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.info .card .card-item{
+    overflow: scroll;
+}
+ .content text{
+  font-size: 11px;
+  line-height: 15rpx;
+}
+.title{
+  margin-bottom: 9rpx;
+  font-weight:500;
+}
+ .title text{
+  font-size: 14px; 
+}

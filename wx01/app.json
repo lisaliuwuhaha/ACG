@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/msg/msg",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D12420",
+    "navigationBarTitleText": "ACG动漫展",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home-active.png"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "text": "漫展",
+        "iconPath": "img/message.png",
+        "selectedIconPath": "img/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "img/profile.png",
+        "selectedIconPath": "img/profile-active.png"
+      }
+    ]
+  }
+}

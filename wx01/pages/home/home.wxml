@@ -1,0 +1,45 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<view>
+  <swiper indicator-dots
+  autoplay interval="3000" duration="1000" circular class='slider'>
+    <swiper-item wx:for="{{list}}" wx:key="item.id">
+      <image src="{{item.img_url}}"  mode='aspectFit'/>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 小程序介绍 -->
+<view class='info'>
+  <view class='divider'></view>
+<view class='card'>
+  <view class='card-item'>
+<view  class='title'>
+<text style='font-weight:600;display:flex;justify-content:center'>ACG动漫</text>
+</view>
+<view class='content'>
+<text :selectable='true'>ACG动漫小程序是一款线下购票通道小程序,囊括国内一线平面嘉宾、唱见、舞见，COSPLAY周边销售、服装、道具制作，摄影工作室（摄影师）、化妆师、精品手办制作、电竞游戏、手游类等,
+在微信中搜索“ACG动漫”即可进入小程序 </text>
+</view>
+</view>
+</view>
+
+</view>
+
+<!-- 新闻列表 -->
+<view class='info' wx:for="{{infoList}}" wx:for-item="obj" wx:key="{{obj.id}}"> 
+<view class='divider'></view>
+<view class='card'>
+<view class='card-item'>
+<view  class='title'>
+<text :selectable='true'>{{obj.title}}</text>
+</view>
+<view class='content'>
+<text :selectable='true'>{{obj.content}}</text>
+<image src='{{obj.img_url}}' mode='widthFix' wx:if="{{obj.img_url!=null}}"></image>
+</view>
+</view>
+</view>
+</view>
+<view wx:if="{{!hasMore}}" style='font-size:14px;text-align:center;color:#ccc'>------ 我也是有底线的 ------</view>
+
+

@@ -1,0 +1,17 @@
+/* pages/msg/msg.wxss */
+/* 活动展示上半部分 */
+.show-top{
+  display: flex;
+}
+.show-top .show-cover{
+  padding-right:30rpx; 
+}
+.show-top .show-cover image{
+  width: 180rpx;
+  height: 250rpx;
+}
+.show-top .show-right{
+  display: flex;
+  flex-direction: column;
+}
+/* 活动展示下半部分 */
